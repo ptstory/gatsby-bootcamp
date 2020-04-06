@@ -7,7 +7,7 @@
 module.exports = {
   siteMetadata: {
     title: "Gatsby Bootcamp",
-    author: "Perry Story"
+    author: "Perry Story",
   },
   plugins: [
     "gatsby-plugin-sass",
@@ -15,9 +15,9 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "src",
-        path: `${__dirname}/src/`
-      }
+        path: `${__dirname}/src/`,
+      },
     },
-    "gatsby-transformer-remark"
+    "gatsby-transformer-remark",
   ],
 }
